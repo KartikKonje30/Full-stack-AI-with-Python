@@ -28,4 +28,10 @@ print(f"After swapping: Ginger ratio = {ginger_ratio}, Turmeric ratio = {turmeri
 
 # Python smartly handles exchanging of values because of tuples working behind the scenes.
 
+# Membership testing in tuples
 
+print(f"Is ginger present in masala spices? {'ginger' in masala_spice}")
+print(f"Is cinnamon present in masala spices? {'cinnamon' in masala_spice}")
+
+# Note: Tuples check membership wrt values and are case-sensitive.
+print(f"Is Cinnamon present in masala spices? {'Cinnamon' in masala_spice}")
