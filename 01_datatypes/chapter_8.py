@@ -48,3 +48,27 @@ numbers = [5, 2, 9, 1, 5, 6]
 print(f"Maximum number in the list: {max(numbers)}")
 print(f"Minimum number in the list: {min(numbers)}")
 
+# Operator overloading with lists
+
+sample_list = [1, 2, 3]
+total_list = sample_list + numbers  # Concatenation
+print(f"Concatenated List: {total_list}")
+
+# what if we multiply a list?
+multiplied_list = sample_list * 3  # Repetition
+print(f"Multiplied List: {multiplied_list}")
+
+# Notice how it even maintained the order of elements while concatenating and repeating.
+
+# Bytearrays in Python
+# Bytearrays are mutable sequences of bytes, used to handle binary data.
+
+# Creating a bytearray
+sample_list = bytearray(b"Stranger Things")
+
+print(f"Bytearray: {sample_list}")
+
+# Modifying a bytearray
+sample_list = sample_list.replace(b"Stranger", b"STRANGEST")
+
+print(f"Modified Bytearray: {sample_list}")
