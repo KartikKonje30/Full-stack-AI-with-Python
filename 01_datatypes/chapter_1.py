@@ -51,7 +51,7 @@ Given below is an example to illustrate this concept:
 
 """
 
-# Immutable object example
+# Mutable object example
 addSugar = 2;
 print(f"Initial sugar amount: {addSugar}, id: {id(addSugar)}");
 addSugar = 12;
@@ -61,13 +61,13 @@ print(f"Updated sugar amount: {addSugar}, id: {id(addSugar)}");
 # Initial sugar amount: 2, id: 140718252455064
 # Updated sugar amount: 12, id: 140718252455384
 
-# In the above example, the integer object is immutable.
+# In the above example, the integer object is mutable.
 # When we change the value of 'addSugar', a new integer object is created in memory,
 # and 'addSugar' now references this new object. 
 # The id() function shows that the identity of the object has changed.
 
 
-# Mutable object example
+# Immutable object example
 spice_mix = set()
 print(f"Initial spice mix: {spice_mix}, id: {id(spice_mix)}")
 spice_mix.add("salt")
@@ -77,8 +77,10 @@ print(f"Initial spice mix: {spice_mix}, id: {id(spice_mix)}")
 # Output:
 # Initial spice mix: set(), id: 1849949997536
 # Initial spice mix: {'salt', 'chili powder'}, id: 1849949997536
-# In the above example, the set object is mutable.
+# In the above example, the set object is immutable.
 # When we add elements to 'spice_mix', the same object in memory is modified.
 # The id() function shows that the identity of the object remains the same.
+
+
 # Understanding the mutability of objects is crucial for effective memory management and avoiding unintended side effects in code.
 
