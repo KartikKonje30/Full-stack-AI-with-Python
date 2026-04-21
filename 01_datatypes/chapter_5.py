@@ -17,7 +17,7 @@ greeting = "Hello"
 new_greeting = greeting + ", " + user + "!"
 print(new_greeting)
 
-# String are sequences, so you can access individual characters using indexing.
+# String are characters in a sequence, so you can access individual characters using indexing.
 first_char = single_quote_string[0]
 print(f'First character from the string: {first_char}')
 
