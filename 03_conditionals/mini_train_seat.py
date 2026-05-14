@@ -12,3 +12,5 @@ match seat_input:
         print("Luxury - Fully Air Conditioned, Comfy beds, Free Wifi, Lunch/Dinner Included")
     case _:
         print("Invalid seat type")
+
+         
