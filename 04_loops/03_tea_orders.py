@@ -1,4 +1,6 @@
 
+# Iterate items from array list
+
 orders = ["Kartik", "Hitesh", "Nikhil", "Sumedh", "yash"]
 
 for name in orders:
